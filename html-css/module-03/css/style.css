@@ -6,6 +6,7 @@
     font-size: 14px;
     line-height: 24px;
     color: #666;
+    font-weight: 400;
 }
 
 header {
@@ -59,6 +60,7 @@ header {
 
 .category {
     font-family: 'Ubuntu', sans-serif;
+    font-weight: 300;
     color: #cc9999;
     text-transform: uppercase;
     line-height: 17px;
