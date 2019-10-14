@@ -42,18 +42,18 @@ header {
     color: #0099ff;
 }
 
-article {
+.articles article {
     display: inline-block;
     width: 420px;
-    margin-bottom:135px;
+    margin-bottom: 135px;
 }
 
-article:nth-child(odd) {
+.articles article:nth-child(odd) {
     margin-right: 60px;
 }
 
-article:nth-last-child(3),
-article:nth-last-child(2) {
+.articles article:last-child,
+.articles article:nth-last-child(2) {
     margin-bottom: 50px;
 }
 
@@ -65,7 +65,7 @@ article:nth-last-child(2) {
     margin: 30px 0 23px 0;
 }
 
-article h2 {
+.articles h2 {
     font-size: 30px;
     line-height: 36px;
     margin: 0 0 32px 0;
@@ -81,4 +81,19 @@ main button {
     background: #fff;
     padding: 15px 25px;
     border: 1px solid #666;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
