@@ -88,12 +88,12 @@ main button {
     margin: auto;
     background: #fff;
     font-family: 'Playfair Display', sans-serif;
-    font-size: 14px;
+    font-size: 20px;
     line-height: 24px;
     font-weight: 400;
-    padding: 11px 30px;
+    padding: 18px 35px;
     border: 1px solid #666;
-    color: rgb(98, 98, 98);
+    color: #666;
 }
 
 .visually-hidden:not(:focus):not(:active),
