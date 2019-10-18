@@ -1,9 +1,9 @@
 .wrapper {
-    width: 904px;
+    width: 900px;
     margin: auto;
     padding: 50px 0 70px 0;
     font-family: 'Playfair Display', sans-serif;
-    font-size: 14px;
+    font-size: 0;
     line-height: 24px;
     color: #666;
     font-weight: 400;
@@ -25,7 +25,8 @@ header {
 .navigation li {
     list-style: none;
     display: inline-block;
-    margin-right: 102px;
+    vertical-align: top;
+    margin-right: 106px;
 }
 
 .navigation li:last-child {
@@ -36,6 +37,7 @@ header {
     display: block;
     text-transform: uppercase;
     text-decoration: none;
+    font-size: 14px;
     color: #666;
 }
 
@@ -64,6 +66,7 @@ header {
     font-weight: 300;
     color: #cc9999;
     text-transform: uppercase;
+    font-size: 14px;
     line-height: 17px;
     margin: 30px 0 23px 0;
 }
@@ -76,12 +79,14 @@ header {
 
 .content {
     margin: 0;
+    font-size: 14px;
 }
 
 main button {
     display: block;
     margin: auto;
     background: #fff;
+    font-size: 14px;
     padding: 15px 25px;
     border: 1px solid #666;
 }
