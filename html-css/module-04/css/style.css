@@ -1,3 +1,187 @@
+.wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    padding: 40px 30px 80px;
+    box-sizing: border-box;
+}
+
+.logo,
+.navigation,
+.products .title,
+.products h2,
+.news h2 {
+    text-transform: uppercase;
+}
+
+.header,
+.products {
+    margin-bottom: 105px;
+}
+
+.header .logo {
+    float: left;
+    font: 300 30px/32px 'Roboto', sans-serif;
+}
+
+.header .logo::first-letter {
+    font-weight: 900;
+    color: #33cc99;
+}
+
+.header .navigation {
+    float: right;
+    width: 466px;
+    font: 700 14px/32px 'Open Sans', sans-serif;
+}
+
+.navigation ul,
+.products ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navigation li {
+    list-style-type: none;
+    float: left;
+    margin-right: 30px;
+}
+
+.navigation li:last-child {
+    margin-right: 0;
+}
+
+.navigation a,
+.logo a {
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+.navigation a:hover {
+    color: #33cc99;
+}
+
+.products h2,
+.news h2 {
+    text-align: center;
+    font: 900 48px/32px 'Roboto', sans-serif;
+    color: #666;
+    margin: 0 0 90px 0;
+}
+
+.news h2 {
+    margin: 0 0 80px 0;
+}
+
+.products h2::after,
+.news h2::after {
+    content: "";
+    display: block;
+    width: 165px;
+    height: 7px;
+    margin: 30px auto 0;
+    background-color: #66cc99;
+}
+
+.products li {
+    list-style-type: none;
+    width: 255px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+    float: left;
+}
+
+.products li:nth-child(4n) {
+    margin-right: 0;
+}
+
+.products img,
+.news img {
+    display: block;
+}
+
+.products .title,
+.products .price {
+    float: left;
+    margin: 0;
+    font: 900 18px/40px 'Roboto', sans-serif;
+    color: #fff;
+}
+
+.products .title {
+    width: 200px;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+.products .price {
+    width: 55px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, .439);
+}
+
+.products .price::before {
+    content: "\0024";
+}
+
+.properties {
+    background-color: #333;
+}
+
+.products li:hover .properties {
+    background-color: #33cc99;
+}
+
+.news article {
+    width: 350px;
+    margin-right: 30px;
+    float: left;
+    color: #666;
+}
+
+.news article:last-child {
+    margin-right: 0;
+}
+
+.news img {
+    margin-bottom: 15px;
+}
+
+.news h3 {
+    font: 700 18px/26px 'Open Sans', sans-serif;
+    margin: 0 0 30px 0;
+}
+
+.news h3::after {
+    content: "";
+    display: block;
+    width: 135px;
+    height: 3px;
+    margin: 6px 0 0 0;
+    background-color: #66cc99;
+}
+
+.news p {
+    font: 400 14px/26px 'Open Sans', sans-serif;
+    margin-bottom: 15px;
+}
+
+.news button {
+    font: 300 16px/50px 'Open Sans', sans-serif;
+    color: #fff;
+    text-align: center;
+    width: 160px;
+    background-color: #66cc99;
+    border-radius: 3px;
+    border: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden,
 input[type="radio"].visually-hidden {
