@@ -1,7 +1,7 @@
 .wrapper {
     width: 900px;
     margin: auto;
-    padding: 50px 0 70px 0;
+    padding: 70px 0 70px 0;
     font-family: 'Playfair Display', sans-serif;
     font-size: 0;
     line-height: 24px;
@@ -10,7 +10,7 @@
 }
 
 header {
-    padding-bottom: 100px;
+    padding-bottom: 97px;
 }
 
 .navigation {
@@ -87,13 +87,13 @@ header {
 
 main button {
     display: block;
+    width: 165px;
     margin: auto;
     background: #fff;
     font-family: 'Playfair Display', sans-serif;
     font-size: 20px;
-    line-height: 24px;
+    line-height: 55px;
     font-weight: 400;
-    padding: 18px 35px;
     border: 1px solid #666;
     color: #666;
 }
