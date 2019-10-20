@@ -50,8 +50,6 @@ header {
     vertical-align: top;
     width: 420px;
     margin-bottom: 130px;
-    height: 480px;
-    overflow: hidden;
 }
 
 .articles article:nth-child(odd) {
@@ -66,7 +64,7 @@ header {
 .category {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 300;
-    color: #cc9999;
+    color: rgb(180, 173, 158);
     text-transform: uppercase;
     font-size: 14px;
     line-height: 17px;
