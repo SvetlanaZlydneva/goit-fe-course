@@ -25,7 +25,7 @@
 
 .header .logo::first-letter {
     font-weight: 900;
-    color: #33cc99;
+    color:rgb(26, 188, 156);
 }
 
 .header .navigation {
@@ -53,19 +53,22 @@
 .navigation a,
 .logo a {
     text-decoration: none;
-    color: #000;
+    color: rgb(15, 1, 1);
     display: block;
+}
+.logo a{
+    color: rgb(85, 82, 82);
 }
 
 .navigation a:hover {
-    color: #33cc99;
+    color:rgb(26, 188, 156);
 }
 
 .products h2,
 .news h2 {
     text-align: center;
     font: 900 48px/32px 'Roboto', sans-serif;
-    color: #666;
+    color: rgb(81, 81, 81);
     margin: 0 0 90px 0;
 }
 
@@ -80,7 +83,7 @@
     width: 165px;
     height: 7px;
     margin: 30px auto 0;
-    background-color: #66cc99;
+    background-color: rgb(26, 188, 156);
 }
 
 .products li {
@@ -125,11 +128,11 @@
 }
 
 .properties {
-    background-color: #333;
+    background-color: rgb(50, 50, 50);
 }
 
 .products li:hover .properties {
-    background-color: #33cc99;
+    background-color: rgb(26, 188, 156);
 }
 
 .news article {
@@ -158,7 +161,7 @@
     width: 135px;
     height: 3px;
     margin: 6px 0 0 0;
-    background-color: #66cc99;
+    background-color:rgb(26, 188, 156);
 }
 
 .news p {
@@ -171,7 +174,7 @@
     color: #fff;
     text-align: center;
     width: 160px;
-    background-color: #66cc99;
+    background-color: rgb(78, 198, 171);
     border-radius: 3px;
     border: none;
 }
