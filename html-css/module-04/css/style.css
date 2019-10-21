@@ -13,9 +13,11 @@
     text-transform: uppercase;
 }
 
-.header,
-.products {
-    margin-bottom: 105px;
+.header{
+    margin-bottom: 100px;
+}
+.products{
+    margin-bottom: 88px;
 }
 
 .header .logo {
@@ -69,7 +71,7 @@
     text-align: center;
     font: 900 48px/32px 'Roboto', sans-serif;
     color:#515151;
-    margin: 0 0 90px 0;
+    margin: 0 0 95px 0;
 }
 
 .news h2 {
@@ -120,7 +122,7 @@
 .products .price {
     width: 55px;
     text-align: center;
-    background-color: rgba(255, 255, 255, .439);
+    background-color: rgba(255, 255, 255, .4);
 }
 
 .products .price::before {
@@ -152,7 +154,7 @@
 
 .news h3 {
     font: 700 18px/26px 'Open Sans', sans-serif;
-    margin: 0 0 30px 0;
+    margin: 0 0 24px 0;
 }
 
 .news h3::after {
@@ -166,7 +168,7 @@
 
 .news p {
     font: 400 14px/26px 'Open Sans', sans-serif;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
 }
 
 .news button {
