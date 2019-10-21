@@ -13,10 +13,11 @@
     text-transform: uppercase;
 }
 
-.header{
+.header {
     margin-bottom: 100px;
 }
-.products{
+
+.products {
     margin-bottom: 76px;
 }
 
@@ -27,7 +28,7 @@
 
 .header .logo::first-letter {
     font-weight: 900;
-    color:#1abc9c;
+    color: #1abc9c;
 }
 
 .header .navigation {
@@ -58,19 +59,20 @@
     color: #0f0101;
     display: block;
 }
-.logo a{
+
+.logo a {
     color: #555252;
 }
 
 .navigation a:hover {
-    color:#1abc9c;
+    color: #1abc9c;
 }
 
 .products h2,
 .news h2 {
     text-align: center;
     font: 900 48px/32px 'Roboto', sans-serif;
-    color:#515151;
+    color: #515151;
     margin: 0 0 92px 0;
 }
 
@@ -163,7 +165,7 @@
     width: 135px;
     height: 3px;
     margin: 9px 0 0 0;
-    background-color:#4ec6ab;
+    background-color: #4ec6ab;
 }
 
 .news p {
