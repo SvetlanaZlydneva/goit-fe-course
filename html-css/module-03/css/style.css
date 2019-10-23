@@ -14,8 +14,7 @@ header {
 }
 
 .navigation {
-    width: 572px;
-    margin: auto;
+    text-align: center; 
 }
 
 .navigation ul {
@@ -94,6 +93,7 @@ main button {
     font-weight: 400;
     border: 1px solid #626262;
     color: #626262;
+    cursor: pointer;
 }
 
 .visually-hidden:not(:focus):not(:active),
