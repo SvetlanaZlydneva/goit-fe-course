@@ -192,6 +192,7 @@
     background-color: #4ec6ab;
     border-radius: 3px;
     border: none;
+    cursor: pointer;
 }
 
 .clearfix::after {
