@@ -1,6 +1,3 @@
-*{
-    outline: 1px solid red;
-}
 .wrapper {
     width: 1170px;
     margin: 0 auto;
@@ -74,7 +71,7 @@
 .products h2,
 .news h2 {
     text-align: center;
-    font: 900 48px/32px 'Roboto', sans-serif;
+    font: 900 48px 'Roboto', sans-serif;
     color: #515151;
     margin: 0 0 92px 0;
 }
