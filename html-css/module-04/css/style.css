@@ -1,3 +1,6 @@
+*{
+    outline: 1px solid red;
+}
 .wrapper {
     width: 1170px;
     margin: 0 auto;
@@ -100,6 +103,14 @@
 
 .products li:nth-child(4n) {
     margin-right: 0;
+}
+
+.products a {
+    display: block;
+}
+
+.products .img-box {
+    background-color: rgb(233, 240, 253);
 }
 
 .products img,
