@@ -14,11 +14,11 @@
 }
 
 .header {
-    margin-bottom: 100px;
+    margin-bottom: 87px;
 }
 
 .products {
-    margin-bottom: 76px;
+    margin-bottom: 63px;
 }
 
 .header .logo {
@@ -86,7 +86,7 @@
     display: block;
     width: 165px;
     height: 7px;
-    margin: 33px auto 0;
+    margin: 20px auto 0;
     background-color: #1abc9c;
 }
 
