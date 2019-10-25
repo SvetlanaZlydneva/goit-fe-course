@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    outline: 1px solid red;
 }
 
 .wrapper {
@@ -70,7 +69,7 @@ header {
 
 .articles h2 {
     font: 400 30px/36px 'Playfair Display', sans-serif;
-    margin: 0 0 29px 0;
+    margin-bottom: 29px;
 }
 
 .content {
