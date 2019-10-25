@@ -1,16 +1,17 @@
-* {    
+* {
     margin: 0;
-    padding: 0;   
+    padding: 0;
+    outline: 1px solid red;
 }
 
 .wrapper {
     width: 900px;
-    margin: auto;      
+    margin: auto;
     color: #626262;
 }
 
 header {
-    padding: 70px 0 96px;
+    padding: 73px 0 99px;
 }
 
 .navigation {
@@ -45,8 +46,10 @@ header {
     width: 420px;
     margin-bottom: 130px;
 }
-.articles img{
+
+.articles img {
     display: block;
+    margin-bottom: 29px;
 }
 
 .articles article:nth-child(odd) {
@@ -62,7 +65,7 @@ header {
     font: 300 14px/17px 'Ubuntu', sans-serif;
     color: #b4ad9e;
     text-transform: uppercase;
-    margin: 15px 0 19px 0;
+    margin-bottom: 19px;
 }
 
 .articles h2 {
@@ -71,7 +74,7 @@ header {
 }
 
 .content {
-    font: 400 14px/24px 'Playfair Display', sans-serif; 
+    font: 400 14px/24px 'Playfair Display', sans-serif;
 }
 
 main button {
@@ -79,7 +82,7 @@ main button {
     width: 165px;
     margin: 0 auto 70px;
     background: #fff;
-    font: 400 20px/55px 'Playfair Display', sans-serif; 
+    font: 400 20px/55px 'Playfair Display', sans-serif;
     border: 1px solid #626262;
     color: #626262;
     cursor: pointer;
