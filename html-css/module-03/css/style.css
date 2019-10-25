@@ -5,13 +5,12 @@
 
 .wrapper {
     width: 900px;
-    margin: auto; 
-    font: 400 14px/24px 'Playfair Display', sans-serif;  
+    margin: auto;      
     color: #626262;
 }
 
 header {
-    padding: 97px 0 70px;
+    padding: 70px 0 96px;
 }
 
 .navigation {
@@ -67,13 +66,12 @@ header {
 }
 
 .articles h2 {
-    font: 400 30px/36px;
+    font: 400 30px/36px 'Playfair Display', sans-serif;
     margin: 0 0 29px 0;
 }
 
 .content {
-    margin: 0;
-    font-size: 14px;
+    font: 400 14px/24px 'Playfair Display', sans-serif; 
 }
 
 main button {
@@ -81,10 +79,7 @@ main button {
     width: 165px;
     margin: 0 auto 70px;
     background: #fff;
-    font-family: 'Playfair Display', sans-serif;
-    font-size: 20px;
-    line-height: 55px;
-    font-weight: 400;
+    font: 400 20px/55px 'Playfair Display', sans-serif; 
     border: 1px solid #626262;
     color: #626262;
     cursor: pointer;
