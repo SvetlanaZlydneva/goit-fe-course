@@ -1,9 +1,12 @@
+* {
+    font-size: 0;
+}
+
 .wrapper {
     width: 900px;
     margin: auto;
     padding: 70px 0 70px 0;
     font-family: 'Playfair Display', sans-serif;
-    font-size: 0;
     line-height: 24px;
     font-weight: 400;
     color: #626262;
@@ -14,7 +17,7 @@ header {
 }
 
 .navigation {
-    text-align: center; 
+    text-align: center;
 }
 
 .navigation ul {
