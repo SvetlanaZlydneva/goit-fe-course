@@ -76,10 +76,13 @@ header {
     font: 400 14px/24px 'Playfair Display', sans-serif;
 }
 
+main{
+    padding-bottom: 70px;
+}
 main button {
     display: block;
     width: 165px;
-    margin: 0 auto 70px;
+    margin: 0 auto;
     background: #fff;
     font: 400 20px/55px 'Playfair Display', sans-serif;
     border: 1px solid #626262;
