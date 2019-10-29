@@ -121,10 +121,14 @@
 
 .products .title {
     width: 200px;
-    padding-left: 15px;
+    
     box-sizing: border-box;
 }
-
+.products .title a{
+    padding-left: 15px;
+    color: #fff;
+    text-decoration: none;
+}
 .products .price {
     width: 55px;
     text-align: center;
