@@ -3,30 +3,66 @@
     padding: 0;
 }
 
-.img {
+img {
     display: block;
     max-width: 100%;
     height: auto;
 }
-header, .products, .slider{
-    text-transform: uppercase;
-}
-header li, .products li{
-    list-style-type: none;
-}
-header a, .slider a, .products a, footer a {
-    text-decoration: none;
-}
-.container{
+
+.container {
     width: 1170px;
     margin: auto;
     padding: 0 30px;
     box-sizing: border-box;
 }
 
+header,
+.products,
+.slider {
+    text-transform: uppercase;
+}
+
+header li,
+.products li {
+    list-style-type: none;
+}
+
+header a,
+.slider a,
+.products a,
+footer a {
+    text-decoration: none;
+}
+
+.header .logo {
+    float: left;
+    font: 300 30px/32px 'Roboto', sans-serif;
+}
+
+.header .logo::first-letter {
+    font-weight: 900;
+    color: #1abc9c;
+}
+
+.header .navigation {
+    float: right;
+    font: 700 14px/32px 'Open Sans', sans-serif;
+}
+
+.header .navigation li {
+    float: left;
+    margin-right: 30px;
+}
+
+.header .navigation li:last-child {
+    margin-right: 0;
+}
+
 .slider {
     height: 600px;
-    background: linear-gradient(to top, rgba(0, 0, 2, .5), rgba(0, 0, 0, .5)), url(../img/slide4.jpg) top/cover no-repeat;
+    background: linear-gradient(to top, rgba(0, 0, 2, .5),
+            rgba(0, 0, 0, .5)),
+        url(../img/slide4.jpg) top/cover no-repeat;
 }
 
 .products {
