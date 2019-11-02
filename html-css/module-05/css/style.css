@@ -16,7 +16,8 @@ img {
 
 header,
 .products,
-.slider {
+.slider,
+.add-to-cart {
     text-transform: uppercase;
 }
 
@@ -33,16 +34,24 @@ header a,
     display: block;
 }
 
-header {
+.prev,
+.next,
+.unvisible-box-product button {
+    cursor: pointer;
+    border: none;
+    background: none;
+}
+
+.header {
     padding: 30px 0 27px;
 }
 
-header .logo {
+.logo {
     float: left;
     font: 300 30px/32px 'Roboto', sans-serif;
 }
 
-header .logo a {
+.logo a {
     color: #555252;
 }
 
@@ -51,25 +60,25 @@ header .logo::first-letter {
     color: #1abc9c;
 }
 
-header .navigation {
+.navigation {
     float: right;
     font: 700 14px/32px 'Open Sans', sans-serif;
 }
 
-header .navigation li {
+.navigation li {
     float: left;
     margin-right: 30px;
 }
 
-header .navigation a {
+.navigation a {
     color: #0f0101;
 }
 
-header .navigation li:last-child {
+.navigation li:last-child {
     margin-right: 0;
 }
 
-header .navigation a:hover {
+.navigation a:hover {
     color: #1abc9c;
 }
 
@@ -83,35 +92,35 @@ header .navigation a:hover {
 
 .slider .container {
     position: relative;
+}
+
+.slider .container,
+.slider ul,
+.slider li {
     height: 100%;
 }
 
-.slider button {
-    border: none;
+.prev,
+.next {
     font-size: 100px;
     color: #fff;
     background-color: #1abc9c;
-    cursor: pointer;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     z-index: 1;
 }
 
-.slider button:hover {
+.prev,
+.next:hover {
     opacity: 0.65;
 }
 
-.slider ul,
-.slider li {
-    height: 100%;
-}
-
-.slider .prev {
+.prev {
     left: 0;
 }
 
-.slider .next {
+.next {
     right: 0;
 }
 
@@ -159,58 +168,46 @@ header .navigation a:hover {
     background-color: #1abc9c;
 }
 
-.products li {
+.product {
     width: 255px;
     float: left;
     margin: 0 30px 98px 0;
+    position: relative;
 }
 
-.products li:last-child {
+.product:last-child {
     margin-right: 0;
+}
+
+.product:hover .properties {
+    background-color: #1abc9c;
 }
 
 .properties {
     background-color: #323232;
 }
 
-.products .title,
-.products .price {
+.title,
+.price {
     float: left;
     font: 900 18px/40px 'Roboto', sans-serif;
     color: #fff;
 }
 
-.products .title {
+.title {
     width: 200px;
     box-sizing: border-box;
 }
 
-.products .title a {
+.title a {
     padding-left: 15px;
     color: #fff;
 }
 
-.products .price {
+.price {
     width: 55px;
     text-align: center;
     background-color: rgba(255, 255, 255, .4);
-}
-
-.products li:hover .properties,
-.unvisible-box-product li:hover button {
-    background-color: #1abc9c;
-}
-
-.unvisible-box-product li:hover button {
-    border: 1px solid #1abc9c;
-}
-
-.product {
-    position: relative;
-}
-
-.products li:hover .unvisible-box-product {
-    display: block;
 }
 
 .unvisible-box-product {
@@ -224,12 +221,11 @@ header .navigation a:hover {
     left: 10px;
 }
 
-.unvisible-box-product li {
-    width: 50px;
-    margin: 0 10px 7px 0;
+.product:hover .unvisible-box-product {
+    display: block;
 }
 
-.unvisible-box-product .icons {
+.icons {
     width: 170px;
     position: absolute;
     top: 50%;
@@ -237,38 +233,54 @@ header .navigation a:hover {
     transform: translate(-50%, -50%);
 }
 
-.unvisible-box-product button {
+.icons button {
+    height: 100%;
     width: 100%;
     font-size: 30px;
-    line-height: 50px;
-    background: none;
     color: #fff;
-    cursor: pointer;
 }
 
-.unvisible-box-product .cart {
+.icons li {
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    height: 50px;
+}
+
+.icons li:nth-child(-n+3),
+.cart button {
+    width: 50px;
+}
+
+.icons li:nth-child(-n+3) {
+    display: inline-block;
+    margin: 0 6px 7px 0;
+}
+
+.icons li:nth-last-child(2) {
+    margin-right: 0;
+}
+
+.icons li:nth-child(-n+3):hover {
+    background-color: #1abc9c;
+    border: none;
+}
+
+.cart {
     background-color: #323232;
 }
 
-.unvisible-box-product .cart button {
-    border: none;
-    width: 49px;
+.cart button,
+.add-to-cart {
     float: left;
-    cursor: pointer;
 }
 
-.unvisible-box-product button,
-.unvisible-box-product .cart {
-    border: 1px solid #fff;
+.add-to-cart {
+    font: 400 14px/50px 'Open Sans', sans-serif;
+    padding-left: 10px;
+    width: 108px;
 }
 
-.unvisible-box-product .cart p {
-    float: left;
-    width: 119px;
-    line-height: 50px;
-}
-
-footer {
+.footer {
     background-color: #323232;
     padding: 30px 0 32px;
     font: 400 16px/28px 'Open Sans', sans-serif;
@@ -276,7 +288,7 @@ footer {
     color: #fefefe;
 }
 
-footer a {
+.footer a {
     color: #46bfa9;
     text-decoration: none;
 }
