@@ -132,7 +132,7 @@ header .logo::first-letter {
 
 .slide img {
     width: 100%;
-    min-height: 600px;
+    height: 600px;
     object-fit: cover;
 }
 
