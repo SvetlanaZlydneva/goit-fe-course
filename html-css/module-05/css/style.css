@@ -5,7 +5,7 @@
 
 img {
     display: block;
-    width: 100%;
+    max-width: 100%;
     height: auto;
 }
 
@@ -82,16 +82,18 @@ header .logo::first-letter {
     color: #1abc9c;
 }
 
-.slider{
+.slider {
     position: relative;
     width: 100%;
     height: 100%;
     color: #fff;
 }
-.slider img{
+
+.slider img {
     filter: brightness(50%)
 }
-.buttons{
+
+.buttons {
     height: 100%;
     position: absolute;
     top: 0;
@@ -99,6 +101,7 @@ header .logo::first-letter {
     transform: translateX(-50%);
     z-index: 5;
 }
+
 .prev,
 .next {
     font-size: 100px;
@@ -124,8 +127,13 @@ header .logo::first-letter {
 }
 
 .slide {
-    
     position: relative;
+}
+
+.slide img {
+    width: 100%;
+    min-height: 600px;
+    object-fit: cover;
 }
 
 .slide .content {
@@ -206,7 +214,8 @@ header .logo::first-letter {
     text-align: center;
     background-color: rgba(255, 255, 255, .4);
 }
-.img-box{
+
+.img-box {
     position: relative;
 }
 
