@@ -111,7 +111,7 @@ header .logo::first-letter {
     z-index: 1;
 }
 
-.prev,
+.prev:hover,
 .next:hover {
     opacity: 0.65;
 }
