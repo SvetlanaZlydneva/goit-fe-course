@@ -6,8 +6,6 @@
 
 img {
     display: block;
-    max-width: 100%;
-    height: auto;
 }
 
 ul {
@@ -36,51 +34,80 @@ a {
 input[type="submit"] {
     text-transform: uppercase;
 }
-.header, .navigation-list, .section-title-services{
+
+.header,
+.navigation-list,
+.section-title-services,
+.services-list,
+.service-list-item,
+.section-title-team,
+.team-members-list,
+.social-list,
+.footer,
+form {
     display: flex;
 }
-.header, .navigation-list{
+
+.header,
+.navigation-list,
+.service-list-item,
+.team-members-list,
+.footer {
     justify-content: space-between;
 }
-.header{
-    min-height: 65px;
-    align-items: flex-end;   
+
+.header,
+footer {
+    min-height: 63px;
 }
-.header a{
+
+.header {
+    align-items: flex-end;
+}
+
+.header a {
     color: #95e1d3;
-    border-bottom: 3px solid transparent;    
+    border-bottom: 3px solid transparent;
 }
-.logo{
+
+.logo {
     font: 700 30px/36px 'Montserrat', sans-serif;
     margin: 0;
 }
-.navigation-list{
+
+.navigation-list {
     font: 400 14px/27px 'Montserrat', sans-serif;
-    min-width: 490px;     
+    min-width: 490px;
 }
-.navigation-list-item a{
+
+.navigation-list-item a {
     transition: color 0.2s linear, border-color 0.2s linear;
 }
+
 .navigation-list-item:hover a {
     color: #f38181;
     border-color: #f38181;
 }
 
-.section-title-services{
-    min-height: 230px;
+.section-title-services,
+.section-title-team {
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
     color: #333;
+    padding: 115px 0 66px;
 }
-.services .description-title{
+
+.description-title {
     font: 400 24px/29px 'Kaushan Script', sans-serif;
     margin-bottom: 12px;
 }
-.services .title{
+
+.title {
     font: 700 30px/36px 'Montserrat', sans-serif;
 }
-.section-title-services::after {
+
+.section-title-services::after,
+.section-title-team::after {
     content: "";
     display: block;
     width: 60px;
@@ -89,3 +116,137 @@ input[type="submit"] {
     background-color: #f38181;
 }
 
+.services-list {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-list-item {
+    width: 335px;
+    margin-bottom: 95px;
+}
+
+.service-icon {
+    margin-right: 25px;
+}
+
+.about-service-title {
+    padding-bottom: 9px;
+}
+
+.section-title-team {
+    padding: 0 0 46px;
+}
+
+.about-team {
+    width: 950px;
+    text-align: center;
+    margin: 0 auto 90px;
+}
+
+.about-service-title,
+.team-member-name,
+.footer p,
+.footer a {
+    font: 400 14px/17px 'Montserrat', sans-serif;
+    color: #333;
+}
+
+.about-service-content,
+.about-team {
+    font: 400 15px/24px 'Roboto', sans-serif;
+    color: #999;
+}
+
+.team-member-item {
+    margin-bottom: 78px;
+    text-align: center;
+}
+
+.team-member-position {
+    font: 300 italic 15px/24px 'Roboto', sans-serif;
+    color: #999;
+    padding-top: 7px;
+}
+
+.box-team-img {
+    position: relative;
+    background-color: #95e1d3;
+    margin-bottom: 30px;
+}
+
+.team-member-photo {
+    transition: transform 0.2s linear;
+}
+
+.unvisible-box-team {
+    position: absolute;
+    top: -10px;
+    bottom: 10px;
+    left: -10px;
+    right: 10px;
+    background: linear-gradient(to top, rgba(252, 227, 138, .9), rgba(243, 129, 129, .9));
+    opacity: 0;
+    transition: opacity 0.2s linear;
+}
+
+.team-member-item:hover .team-member-photo {
+    transform: translate(-10px, -10px);
+}
+
+.team-member-item:hover .unvisible-box-team {
+    opacity: 1;
+}
+
+.social-list {
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-list-item {
+    border-right: 1px solid #f38181;
+}
+
+.social-list-item a {
+    background-color: #fce38a;
+    transition: background-color 0.2s linear;
+}
+
+.social-list-item a:hover {
+    background-color: #95e1d3;
+}
+
+.social-list-item:last-child {
+    border-right: 0;
+}
+
+.footer {
+    align-items: center;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer a {
+    color: #f38181;
+}
+
+.footer input[type="submit"] {
+    min-width: 150px;
+    font: 700 14px/40px 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #95e1d3;
+    border: none;
+    cursor: pointer;
+}
+
+.footer input[type="text"] {
+    min-width: 230px;
+    font: 300 italic 15px/40px 'Roboto', sans-serif;
+    border: 1px solid #e7e7e7;
+    padding-left: 10px;
+}
+
+.footer input[type="text"]::placeholder {
+    color: #ccc;
+}

@@ -1,0 +1,116 @@
+
+
+.header,
+.header ul,
+.services ul,
+.services li,
+.employees,
+.footer,
+.footer form,
+.unvisible-box ul {
+    display: flex;
+}
+
+.header,
+.navigation-list,
+.services li,
+.employees,
+.footer {
+    justify-content: space-between;
+}
+
+.title-description,
+.title,
+.team-description,
+.employee h3,
+.employee p {
+    text-align: center;
+
+}
+
+.header,
+.footer {
+    min-height: 65px;
+}
+
+
+.employee h3 {
+    padding-bottom: 7px;
+}
+
+.team-img {
+    
+    
+}
+
+.team-img>img {
+    transition: transform 0.2s linear;
+}
+
+.employee:hover .team-img>img {
+   
+}
+
+.unvisible-box {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background: linear-gradient(to top, rgba(252, 227, 138, .9), rgba(243, 129, 129, .9));
+    opacity: 0;
+    transition: opacity 0.2s linear;
+}
+
+.employee:hover .unvisible-box {
+    opacity: 1;
+}
+
+.unvisible-box ul {
+    min-height: 471px;
+    min-width: 381px;
+    
+}
+
+.unvisible-box li {
+    border-right: 1px solid #f38181;
+}
+
+.unvisible-box li:last-child {
+    
+}
+
+.unvisible-box a {
+    
+}
+
+
+
+
+
+.footer input {
+    
+}
+
+.footer input[placeholder] {
+    min-width: 230px;
+    font: 300 italic 15px/40px 'Roboto', sans-serif;
+    color: #ccc;
+    border: 1px solid #e7e7e7;
+    padding-left: 10px;
+}
+
+
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
