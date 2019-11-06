@@ -18,7 +18,7 @@ a {
     text-decoration: none;
 }
 
-.navigation-list-item a,
+.navigation a,
 .unvisible-box-team a {
     display: block;
 }
@@ -52,6 +52,7 @@ input[type="submit"] {
 }
 .logo{
     font: 700 30px/36px 'Montserrat', sans-serif;
+    margin: 0;
 }
 .navigation-list{
     font: 400 14px/27px 'Montserrat', sans-serif;
@@ -67,17 +68,3 @@ input[type="submit"] {
 
 
 
-.visually-hidden:not(:focus):not(:active),
-input[type="checkbox"].visually-hidden,
-input[type="radio"].visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
-}
