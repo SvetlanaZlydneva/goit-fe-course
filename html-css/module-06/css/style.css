@@ -125,6 +125,9 @@ footer {
     width: 335px;
     margin-bottom: 95px;
 }
+.service-list-item:nth-last-child(-n+3){
+    margin-bottom: 87px;
+}
 
 .service-icon {
     margin-right: 25px;
@@ -135,7 +138,7 @@ footer {
 }
 
 .section-title-team {
-    padding: 0 0 46px;
+    padding: 0 0 41px;
 }
 
 .about-team {
@@ -166,13 +169,13 @@ footer {
 .team-member-position {
     font: 300 italic 15px/24px 'Roboto', sans-serif;
     color: #999;
-    padding-top: 7px;
+    padding-top: 5px;
 }
 
 .box-team-img {
     position: relative;
     background-color: #95e1d3;
-    margin-bottom: 30px;
+    margin-bottom: 27px;
 }
 
 .team-member-photo {
@@ -241,10 +244,10 @@ footer {
 }
 
 .footer input[type="text"] {
-    min-width: 230px;
+    min-width: 212px;
     font: 300 italic 15px/40px 'Roboto', sans-serif;
     border: 1px solid #e7e7e7;
-    padding-left: 10px;
+    padding-left: 13px;
 }
 
 .footer input[type="text"]::placeholder {
