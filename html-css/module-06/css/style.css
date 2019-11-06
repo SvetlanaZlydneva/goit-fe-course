@@ -18,7 +18,7 @@ a {
     text-decoration: none;
 }
 
-.navigation a,
+.header a,
 .unvisible-box-team a {
     display: block;
 }
@@ -36,7 +36,7 @@ a {
 input[type="submit"] {
     text-transform: uppercase;
 }
-.header, .navigation-list{
+.header, .navigation-list, .section-title-services{
     display: flex;
 }
 .header, .navigation-list{
@@ -44,7 +44,7 @@ input[type="submit"] {
 }
 .header{
     min-height: 65px;
-    align-items: flex-end;    
+    align-items: flex-end;   
 }
 .header a{
     color: #95e1d3;
@@ -66,5 +66,26 @@ input[type="submit"] {
     border-color: #f38181;
 }
 
-
+.section-title-services{
+    min-height: 230px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    color: #333;
+}
+.services .description-title{
+    font: 400 24px/29px 'Kaushan Script', sans-serif;
+    margin-bottom: 12px;
+}
+.services .title{
+    font: 700 30px/36px 'Montserrat', sans-serif;
+}
+.section-title-services::after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 34px auto 0;
+    background-color: #f38181;
+}
 
