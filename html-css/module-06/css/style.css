@@ -3,10 +3,6 @@
     padding: 0;
 }
 
-img {
-    display: block;
-}
-
 ul {
     list-style-type: none;
 }
@@ -16,7 +12,8 @@ a {
 }
 
 .header a,
-.unvisible-box-team a {
+.unvisible-box-team a,
+img {
     display: block;
 }
 
