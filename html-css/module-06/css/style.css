@@ -48,22 +48,36 @@ input[type="submit"] {
 }
 .header a{
     color: #95e1d3;
-    
+    border-bottom: 3px solid transparent;    
 }
 .logo{
     font: 700 30px/36px 'Montserrat', sans-serif;
-
-    margin: 0;
 }
 .navigation-list{
     font: 400 14px/27px 'Montserrat', sans-serif;
     min-width: 490px;     
 }
 .navigation-list-item a{
-    border-bottom: 3px solid transparent;
     transition: color 0.2s linear, border-color 0.2s linear;
 }
 .navigation-list-item:hover a {
     color: #f38181;
     border-color: #f38181;
+}
+
+
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
