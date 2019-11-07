@@ -11,10 +11,6 @@ a {
     text-decoration: none;
 }
 
-:root {
-    --bg-icon: transparent;
-}
-
 .header a,
 .section-title-services span,
 .unvisible-box-team a,
