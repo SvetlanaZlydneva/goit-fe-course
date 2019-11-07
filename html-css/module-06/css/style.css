@@ -125,7 +125,36 @@ footer {
     margin-bottom: 87px;
 }
 
-.service-icon {
+.service-icon-1 {
+    --bg-icon: url(../img/icon-1.png);
+}
+
+.service-icon-2 {
+    --bg-icon: url(../img/icon-2.png);
+}
+
+.service-icon-3 {
+    --bg-icon: url(../img/icon-3.png);
+}
+
+.service-icon-4 {
+    --bg-icon: url(../img/icon-4.png);
+}
+
+.service-icon-5 {
+    --bg-icon: url(../img/icon-5.png);
+}
+
+.service-icon-6 {
+    --bg-icon: url(../img/icon-6.png);
+}
+
+.service-icon::after {
+    content: "";
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: var(--bg-icon);
     margin-right: 25px;
 }
 
@@ -158,6 +187,7 @@ footer {
 }
 
 .team-member-item {
+    width: 381px;
     margin-bottom: 78px;
     text-align: center;
 }
@@ -212,6 +242,25 @@ footer {
 .social-list-item a {
     background-color: #fce38a;
     transition: background-color 0.2s linear;
+}
+.social-icon-1 {
+    --bg-icon: url(../img/social-1.png);
+}
+.social-icon-2 {
+    --bg-icon: url(../img/social-2.png);
+}
+.social-icon-3 {
+    --bg-icon: url(../img/social-3.png);
+}
+.social-icon-4 {
+    --bg-icon: url(../img/social-4.png);
+}
+.social-icon::after {
+    content: "";
+    display: block;
+    width: 56px;
+    height: 56px;
+    background: var(--bg-icon);
 }
 
 .social-list-item a:hover {
