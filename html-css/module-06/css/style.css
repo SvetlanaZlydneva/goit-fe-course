@@ -12,7 +12,9 @@ a {
 }
 
 .header a,
+.section-title-services span,
 .unvisible-box-team a,
+.section-title-team span,
 img {
     display: block;
 }
@@ -33,10 +35,8 @@ input[type="submit"] {
 
 .header,
 .navigation-list,
-.section-title-services,
 .services-list,
 .service-list-item,
-.section-title-team,
 .team-members-list,
 .social-list,
 .footer,
@@ -87,8 +87,7 @@ footer {
 
 .section-title-services,
 .section-title-team {
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
     color: #333;
     padding: 115px 0 66px;
 }
@@ -181,16 +180,17 @@ footer {
 
 .unvisible-box-team {
     position: absolute;
-    top: -10px;
-    bottom: 10px;
-    left: -10px;
-    right: 10px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
     background: linear-gradient(to top, rgba(252, 227, 138, .9), rgba(243, 129, 129, .9));
     opacity: 0;
-    transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear, transform 0.2s linear;
 }
 
-.team-member-item:hover .team-member-photo {
+.team-member-item:hover .team-member-photo,
+.team-member-item:hover .unvisible-box-team {
     transform: translate(-10px, -10px);
 }
 
