@@ -11,6 +11,10 @@ a {
     text-decoration: none;
 }
 
+:root {
+    --bg-icon: transparent;
+}
+
 .header a,
 .section-title-services span,
 .unvisible-box-team a,
@@ -243,18 +247,23 @@ footer {
     background-color: #fce38a;
     transition: background-color 0.2s linear;
 }
+
 .social-icon-1 {
     --bg-icon: url(../img/social-1.png);
 }
+
 .social-icon-2 {
     --bg-icon: url(../img/social-2.png);
 }
+
 .social-icon-3 {
     --bg-icon: url(../img/social-3.png);
 }
+
 .social-icon-4 {
     --bg-icon: url(../img/social-4.png);
 }
+
 .social-icon::after {
     content: "";
     display: block;
