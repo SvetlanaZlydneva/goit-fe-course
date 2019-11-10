@@ -1,0 +1,44 @@
+/* wisdom script regular 400 */
+@font-face {
+    font-family: 'WisdomScript';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/Wisdom-Script.woff2') format('woff2'),
+        url('../fonts/Wisdom-Script.woff') format('woff');
+}
+
+/* montserrat regular 400 */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat.woff2') format('woff2'),
+        url('../fonts/montserrat.woff') format('woff');
+}
+
+/* montserrat bold 700 */
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/montserratbold.woff2') format('woff2'),
+        url('../fonts/montserratbold.woff') format('woff');
+}
+
+/* droid serif italic 400 */
+@font-face {
+    font-family: 'Droid';
+    font-style: italic;
+    font-weight: 400;
+    src: url('../fonts/DroidSerifItalic.woff2') format('woff2'),
+        url('../fonts/DroidSerif-Italic.woff') format('woff');
+}
+
+/* roboto slab 400 */
+@font-face {
+    font-family: 'RobotoSlab';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-slab-v9-latin-regular.woff2') format('woff2'),
+        url('../fonts/roboto-slab-v9-latin-regular.woff') format('woff');
+}

@@ -1,0 +1,144 @@
+ul {
+    list-style-type: none;
+}
+
+.header a {
+    text-decoration: none;
+    display: block;
+}
+
+.header,
+.navigation, .box-form, .services-list {
+    display: flex;
+}
+
+.header,
+.navigation, .box-form, .services-list {
+    justify-content: space-between;
+}
+
+.navigation a,
+.services .title,
+.service-name {
+    color: #222;
+}
+
+.description,
+.service-description {
+    color: #777;
+}
+
+.navigation,
+.title,
+input,
+textarea {
+    text-transform: uppercase;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header {
+    min-height: 72px;
+    align-items: flex-end;
+}
+
+.navigation {
+    min-width: 485px;
+    font: 400 14px/24px "Montserrat", sans-serif;
+}
+
+.navigation a:hover {
+    color: #fed136;
+}
+
+.logo a {
+    font: 400 26px/41px "WisdomScript", sans-serif;
+    color: #fed136;
+}
+
+.title-section span {
+    display: block;
+    text-align: center;
+}
+.title{
+    font: 700 40px/75px "Montserrat", sans-serif; 
+}
+.description{
+    font: 400 italic 16px/19px "Droid", sans-serif; 
+}
+.services .title-section{
+    padding: 120px 0 65px;
+}
+.service-list-item{
+    width: 290px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+.service-name{
+    font: 700 18px/75px "Montserrat", sans-serif;
+}
+.service-description{
+    font: 400 14px/17px "RobotoSlab", sans-serif;
+}
+.service-icon-1 {
+    --bg-icon: url(../img/icon-1.png);
+}
+
+.service-icon-2 {
+    --bg-icon: url(../img/icon-2.png);
+}
+
+.service-icon-3 {
+    --bg-icon: url(../img/icon-3.png);
+}
+
+.service-list-item::before {
+    content: "";
+    display: block;
+    margin: 0 auto;
+    width: 75px;
+    height: 75px;
+    background: var(--bg-icon);
+}
+.contact {
+    min-height: 680px;
+    background: url(../img/bg.png) no-repeat bottom right, #222;
+}
+.contact .title-section{
+    padding: 110px 0 75px;
+}
+
+.contact .title {
+    color: #fff;
+}
+
+.box-form input, .box-form textarea{
+    font: 700 14px/17px "Montserrat", sans-serif;
+    min-width: 435px;
+    min-height: 55px;
+    padding-left: 20px;
+    margin-bottom: 30px; 
+    border: 1px solid #ccc;
+    border-radius: 2px;   
+}
+.box-form textarea{
+    padding-top: 20px;
+}
+.box-form input::placeholder, .box-form textarea::placeholder{
+    color: #bbb;
+}
+.form input[type="submit"]{
+    display: block;
+    margin: 0 auto;
+    font: 700 18px/22px "Montserrat", sans-serif;
+    color: #fff;
+    min-width: 240px;
+    min-height: 65px;
+    border: none;
+    background-color: #fed136;
+    border-radius: 2px; 
+    cursor: pointer;
+}

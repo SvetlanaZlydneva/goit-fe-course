@@ -7,14 +7,67 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>module-07</title>
     <link rel="stylesheet" href="css/normalize.css">
-    <link
-        href="https://fonts.googleapis.com/css?family=Kaushan+Script%7CMontserrat:400,700%7CRoboto:300i,400&display=swap"
-        rel="stylesheet">
+    <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
+    <header class="header container">
+        <h1 class="logo"><a href="#">Golden</a></h1>
+        <nav>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="services container">
+            <h2 class="title-section">
+                <span class="title">Services</span>
+                <span class="description">Proin iaculis purus consequat sem cure</span>
+            </h2>
+            <ul class="services-list">
+                <li class="service-list-item service-icon-1">
+                    <h3 class="service-name">E-Commerce</h3>
+                    <p class="service-description">Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt.</p>
+                </li>
+                <li class="service-list-item service-icon-2">
+                    <h3 class="service-name">Responsive Web</h3>
+                    <p class="service-description">Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt.</p>
+                </li>
+                <li class="service-list-item service-icon-3">
+                    <h3 class="service-name">Web Security</h3>
+                    <p class="service-description">Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt.</p>
+                </li>
+            </ul>
+        </section>
+        <section class="contact">
+            <h2 class="title-section container">
+                <span class="title">Contact Us</span>
+                <span class="description">Proin iaculis purus consequat sem cure</span>
+            </h2>
+            <form action="#" class="form container" method="GET">
+                <div class="box-form">
+                    <div class="box-input">
+                        <input type="text" placeholder="Your name *" required name="name">
+                        <input type="email" placeholder="Your e-mail *" required name="email">
+                        <input type="text" placeholder="Subject" name="subject">
+                    </div>
+                    <textarea name="message" placeholder="Your message *" required></textarea>
+                </div>
+                <input type="submit" name="submit" value="Send message">
+            </form>
+        </section>
 </body>
 
 </html>
