@@ -144,6 +144,7 @@ textarea {
 .box-form textarea {
     padding-top: 15px;
     resize: none;
+    border-radius: 5px;
 }
 
 .box-form input:focus,
@@ -170,6 +171,6 @@ textarea {
     min-height: 65px;
     border: none;
     background-color: #fed136;
-    border-radius: 2px;
+    border-radius: 3px;
     cursor: pointer;
 }
