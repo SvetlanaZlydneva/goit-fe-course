@@ -134,7 +134,7 @@ textarea {
 .box-form textarea {
     font: 700 14px/17px "Montserrat", sans-serif;
     min-width: 435px;
-    min-height: 55px;
+    min-height: 50px;
     padding-left: 20px;
     margin-bottom: 30px;
     border: 1px solid #ccc;
