@@ -118,7 +118,6 @@ textarea {
 }
 
 .contact {
-    min-height: 655px;
     background: url(../img/bg.png) no-repeat bottom right, #222;
 }
 
@@ -164,7 +163,7 @@ textarea {
 
 .form input[type="submit"] {
     display: block;
-    margin: 0 auto;
+    margin: 0 auto 115px;
     font: 700 18px/22px "Montserrat", sans-serif;
     color: #fff;
     min-width: 240px;
