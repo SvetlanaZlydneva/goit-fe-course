@@ -35,8 +35,8 @@ ul {
 
 .navigation,
 .title,
-input,
-textarea {
+input::placeholder,
+textarea::placeholder {
     text-transform: uppercase;
 }
 
