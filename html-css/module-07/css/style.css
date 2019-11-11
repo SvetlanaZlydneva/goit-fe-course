@@ -119,6 +119,7 @@ textarea {
 
 .contact {
     background: url(../img/bg.png) no-repeat bottom right, #222;
+    padding-bottom: 115px;
 }
 
 .contact .title-section {
@@ -163,7 +164,7 @@ textarea {
 
 .form input[type="submit"] {
     display: block;
-    margin: 0 auto 115px;
+    margin: 0 auto;
     font: 700 18px/22px "Montserrat", sans-serif;
     color: #fff;
     min-width: 240px;
