@@ -155,7 +155,12 @@ textarea {
 
 .box-form input:valid:focus,
 .box-form textarea:valid:focus {
-    border: 1px solid #fed136;
+    outline: 1px solid #2e8b57;
+}
+
+.box-form input:invalid:focus,
+.box-form textarea:invalid:focus {
+    outline: 1px solid #dc143c;
 }
 
 .box-form input::placeholder,
