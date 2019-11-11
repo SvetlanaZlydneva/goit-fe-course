@@ -8,12 +8,16 @@ ul {
 }
 
 .header,
-.navigation, .box-form, .services-list {
+.navigation,
+.box-form,
+.services-list {
     display: flex;
 }
 
 .header,
-.navigation, .box-form, .services-list {
+.navigation,
+.box-form,
+.services-list {
     justify-content: space-between;
 }
 
@@ -63,26 +67,33 @@ textarea {
     display: block;
     text-align: center;
 }
-.title{
-    font: 700 40px/75px "Montserrat", sans-serif; 
+
+.title {
+    font: 700 40px/75px "Montserrat", sans-serif;
 }
-.description{
-    font: 400 italic 16px/19px "Droid", sans-serif; 
+
+.description {
+    font: 400 italic 16px/19px "Droid", sans-serif;
 }
-.services .title-section{
+
+.services .title-section {
     padding: 120px 0 65px;
 }
-.service-list-item{
+
+.service-list-item {
     width: 290px;
     margin-bottom: 120px;
     text-align: center;
 }
-.service-name{
+
+.service-name {
     font: 700 18px/75px "Montserrat", sans-serif;
 }
-.service-description{
+
+.service-description {
     font: 400 14px/17px "RobotoSlab", sans-serif;
 }
+
 .service-icon-1 {
     --bg-icon: url(../img/icon-1.png);
 }
@@ -101,13 +112,17 @@ textarea {
     margin: 0 auto;
     width: 75px;
     height: 75px;
-    background: var(--bg-icon);
+    background: var(--bg-icon) no-repeat;
+    border: 4px solid #fed136;
+    border-radius: 50%;
 }
+
 .contact {
     min-height: 680px;
     background: url(../img/bg.png) no-repeat bottom right, #222;
 }
-.contact .title-section{
+
+.contact .title-section {
     padding: 110px 0 75px;
 }
 
@@ -115,22 +130,38 @@ textarea {
     color: #fff;
 }
 
-.box-form input, .box-form textarea{
+.box-form input,
+.box-form textarea {
     font: 700 14px/17px "Montserrat", sans-serif;
     min-width: 435px;
     min-height: 55px;
     padding-left: 20px;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
     border: 1px solid #ccc;
-    border-radius: 2px;   
+    border-radius: 2px;
 }
-.box-form textarea{
+
+.box-form textarea {
     padding-top: 20px;
+    resize: none;
 }
-.box-form input::placeholder, .box-form textarea::placeholder{
+
+.box-form input:focus,
+.box-form textarea:focus {
+    outline: none;
+}
+
+.box-form input:valid:focus,
+.box-form textarea:valid:focus {
+    border: 1px solid #fed136;
+}
+
+.box-form input::placeholder,
+.box-form textarea::placeholder {
     color: #bbb;
 }
-.form input[type="submit"]{
+
+.form input[type="submit"] {
     display: block;
     margin: 0 auto;
     font: 700 18px/22px "Montserrat", sans-serif;
@@ -139,6 +170,6 @@ textarea {
     min-height: 65px;
     border: none;
     background-color: #fed136;
-    border-radius: 2px; 
+    border-radius: 2px;
     cursor: pointer;
 }
