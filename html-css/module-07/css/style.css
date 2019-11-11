@@ -118,7 +118,7 @@ textarea {
 }
 
 .contact {
-    background: url(../img/bg.png) no-repeat bottom right, #222;
+    background: url(../img/bg.png) no-repeat bottom 20px right, #222;
     padding-bottom: 95px;
 }
 
