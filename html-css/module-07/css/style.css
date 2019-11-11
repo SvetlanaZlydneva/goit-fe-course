@@ -5,6 +5,7 @@ ul {
 .header a {
     text-decoration: none;
     display: block;
+    transition: color 0.2s linear;
 }
 
 .header,
