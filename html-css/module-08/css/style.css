@@ -51,7 +51,7 @@ a {
 .navigation {
     display: flex;
     justify-content: center;
-    padding: 20px 0 110px;
+    padding: 20px 0 114px;
 }
 
 .user-initialization a {
@@ -67,23 +67,25 @@ a {
 }
 .logo{
     font: 700 20px/24px 'Montserrat', sans-serif;
-    margin-bottom: 40px;
+    margin-bottom: 28px;
 }
 
 .title-header{
     font: 700 30px/36px 'Montserrat', sans-serif;
+    margin-bottom: 8px;
 }
 .title-header-addition{
     font: 300 18px/22px 'Roboto', sans-serif;
     width: 220px;
-    margin: 0 auto 20px;
+    padding: 0 auto 16px;
 }
 .content-header-box{
-    padding-bottom: 120px;
+    padding-bottom: 137px;
 }
 
 .find-partner{
     width: 280px;
+    margin: 0 auto;
     background-color:#ff4e50;
     border-radius: 25px;
     padding: 11px 0;
