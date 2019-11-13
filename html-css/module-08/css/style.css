@@ -1,3 +1,6 @@
+*{
+    outline: 1px solid green;
+}
 img {
     display: block;
     max-width: 100%;
@@ -21,7 +24,7 @@ a {
 }
 
 .header,
-.partners {
+.partners, .user-initialization {
     text-align: center;
 }
 
@@ -46,22 +49,21 @@ a {
 }
 
 .navigation {
+    display: flex;
+    justify-content: center;
     padding: 20px 0 110px;
 }
 
-.user-initialization {
-    display: inline-block;
-}
-
-.user-initialization:first-child {
-    margin-right: 20px;
-}
 
 .user-initialization a {
-    padding: 8px 15px;
-    font: 700 14px/17px 'Montserrat', sans-serif;
-    border: 2px solid #fff;
+    min-width: 90px;
+    font: 700 14px/36px 'Montserrat', sans-serif;
     border-radius: 25px;
+    border: 2px solid transparent;
+}
+.user-initialization a:hover{
+    border: 2px solid #fff;
+    
 }
 .logo{
     font: 700 20px/24px 'Montserrat', sans-serif;
