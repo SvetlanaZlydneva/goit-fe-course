@@ -77,7 +77,7 @@ a {
 .title-header-addition{
     font: 300 18px/22px 'Roboto', sans-serif;
     width: 220px;
-    padding: 0 auto 16px;
+    margin: 0 auto 16px;
 }
 .content-header-box{
     padding-bottom: 137px;
