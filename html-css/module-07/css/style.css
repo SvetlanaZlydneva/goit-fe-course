@@ -64,21 +64,17 @@ textarea::placeholder {
     color: #fed136;
 }
 
-.title-section span {
-    display: block;
-    text-align: center;
-}
 
 .title {
     font: 700 40px/72px "Montserrat", sans-serif;
+    text-align: center;
+    padding-top: 96px;
 }
 
 .description {
     font: 400 italic 16px/19px "Droid", sans-serif;
-}
-
-.services .title-section {
-    padding: 96px 0 76px;
+    text-align: center;
+    padding-bottom: 76px;
 }
 
 .service-list-item {
@@ -123,8 +119,8 @@ textarea::placeholder {
     padding-bottom: 95px;
 }
 
-.contact .title-section {
-    padding: 86px 0 76px;
+.contact .title {
+    padding-top: 86px;
 }
 
 .contact .title {
