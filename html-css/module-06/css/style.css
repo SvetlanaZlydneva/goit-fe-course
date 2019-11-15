@@ -149,13 +149,15 @@ footer {
     --bg-icon: url(../img/icon-6.png);
 }
 
-.service-icon::after {
+.service-list-item::before {
     content: "";
     display: block;
     width: 32px;
     height: 32px;
-    background: var(--bg-icon);
-    margin-right: 25px;
+    background: var(--bg-icon) no-repeat center/cover;
+}
+.about-service{
+    width: 270px;
 }
 
 .about-service-title {

@@ -45,7 +45,7 @@ a {
 }
 
 .header {
-    background: url(../img/bg.jpg) no-repeat top;
+    background: url(../img/bg.jpg) no-repeat center/cover;
 }
 
 .navigation {
@@ -59,6 +59,7 @@ a {
     padding: 8px 15px;
     border-radius: 25px;
     border: 2px solid transparent;
+    transition: border 0.2s linear;
 
 }
 .user-initialization a:hover{
@@ -74,7 +75,7 @@ a {
     font: 700 30px/36px 'Montserrat', sans-serif;
     margin-bottom: 8px;
 }
-.title-header-addition{
+.description{
     font: 300 18px/22px 'Roboto', sans-serif;
     width: 220px;
     margin: 0 auto 16px;
@@ -109,4 +110,15 @@ a {
 .photo-partner {
     margin: 0 auto;
     border-radius: 50%;
+}
+
+@media screen and (min-width: 768px) {
+    .container{
+        width: 675px; 
+    }
+    .navigation-box{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
 }
