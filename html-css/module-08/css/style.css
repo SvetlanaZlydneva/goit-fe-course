@@ -82,7 +82,7 @@ a {
 }
 
 .partner {
-    width: 200px;
+    width: 215px;
 }
 
 .title-section {
@@ -130,12 +130,11 @@ a {
     background: var(--bg-icon) no-repeat center, var(--bg-color);
 }
 .name-partner{
-    padding: 10px 0 10px;
-    font: 700 14px/17px 'Montserrat', sans-serif; 
+    font: 700 14px/46px 'Montserrat', sans-serif; 
     color: #333;
 }
 .about-partner{
-    padding-bottom: 20px;
+    padding-bottom: 25px;
     font: 300 14px/17px 'Roboto', sans-serif;  
     color: #666;
 }
@@ -184,7 +183,7 @@ a {
     }
 
     .title-section {
-        padding: 70px 10px 20px;
+        padding: 66px 10px 15px;
     }
 
     .list-partners {
