@@ -33,7 +33,7 @@ a {
     display: flex;
 }
 
-.user-initialization a,
+.logo,
 .title-header {
     text-transform: uppercase;
 }
@@ -87,11 +87,11 @@ a {
 
     .navigation {
         justify-content: center;
-        padding: 20px 0 115px;
+        padding: 20px 0 110px;
     }
 
     .logo {
-        padding-bottom: 35px;
+        padding-bottom: 24px;
     }
 
     .content-header-box {
@@ -106,26 +106,26 @@ a {
         margin: 0 auto;
         font: 300 18px/22px 'Roboto', sans-serif;
         width: 220px;
-        padding: 10px 0 10px;
+        padding: 9px 0 14px;
     }
 }
 
 @media screen and (min-width: 768px) {
     .container {
-        width: 685px;
+        width: 675px;
     }
 
     .navigation-box {
         display: flex;
         flex-direction: row-reverse;
         justify-content: space-between;
-        padding: 38px 0 152px;
+        padding: 38px 0 136px;
     }
 
     .content-header-box {
         width: 503px;
         margin: 0 auto;
-        padding-bottom: 250px;
+        padding-bottom: 234px;
     }
 
     .title-header {
@@ -134,7 +134,7 @@ a {
 
     .description {
         font: 300 24px/29px 'Roboto', sans-serif;
-        padding: 20px 0 20px;
+        padding: 23px 0 34px;
     }
 
     .find-partner {
