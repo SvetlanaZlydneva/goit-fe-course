@@ -112,7 +112,7 @@ a {
 
 @media screen and (min-width: 768px) {
     .container {
-        width: 675px;
+        width: 700px;
     }
 
     .navigation-box {
@@ -141,4 +141,7 @@ a {
         width: 230px;
         margin: 0 auto;
     }
+}
+@media screen and (min-width: 942px) {
+
 }
