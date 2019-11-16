@@ -24,9 +24,13 @@ a {
     box-sizing: border-box;
 }
 
+.header,
+.partners {
+    text-align: center;
+}
+
 .header {
     background: url(../img/bg.jpg) no-repeat center/cover;
-    text-align: center;
 }
 
 .navigation {
@@ -72,6 +76,77 @@ a {
     border-radius: 25px;
 }
 
+.list-partners {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.partner {
+    width: 200px;
+}
+
+.title-section {
+    font: 700 22px/26px 'Montserrat', sans-serif;
+    color: #333;
+}
+
+.photo-partner {
+    width: 123px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.photo-partner img {
+    border-radius: 50%;
+}
+
+.icon-1 {
+    --bg-icon: url(../img/icon-1.png);
+    --bg-color: #ff4e50;
+}
+.icon-2 {
+    --bg-icon: url(../img/icon-2.png);
+    --bg-color: #ffa507;
+}
+.icon-3 {
+    --bg-icon: url(../img/icon-3.png);
+    --bg-color: #1cd7ad;
+}
+.icon-4 {
+    --bg-icon: url(../img/icon-4.png);
+    --bg-color: #4e73db;
+}
+
+.photo-partner::after {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    border: 4px solid #fff;
+    background: var(--bg-icon) no-repeat center, var(--bg-color);
+}
+.name-partner{
+    padding: 10px 0 10px;
+    font: 700 14px/17px 'Montserrat', sans-serif; 
+    color: #333;
+}
+.about-partner{
+    padding-bottom: 20px;
+    font: 300 14px/17px 'Roboto', sans-serif;  
+    color: #666;
+}
+.more-partners{
+    font: 700 14px/35px 'Montserrat', sans-serif; 
+    color: #ff4e50; 
+    border: 2px solid #ff4e50;
+    border-radius: 25px;
+    margin-bottom: 50px;
+}
+
 
 
 
@@ -84,7 +159,6 @@ a {
 
 
 @media screen and (max-width: 767px) {
-
     .navigation {
         justify-content: center;
         padding: 20px 0 110px;
@@ -108,11 +182,19 @@ a {
         width: 220px;
         padding: 9px 0 14px;
     }
+
+    .title-section {
+        padding: 70px 10px 20px;
+    }
+
+    .list-partners {
+        justify-content: center;
+    }
 }
 
 @media screen and (min-width: 768px) {
     .container {
-        width: 700px;
+        width: 703px;
     }
 
     .navigation-box {
@@ -141,9 +223,14 @@ a {
         width: 230px;
         margin: 0 auto;
     }
+
+    .title-section {
+        padding: 70px 0 36px;
+    }
 }
+
 @media screen and (min-width: 1440px) {
-    .container{
-        width: 942px;
+    .container {
+        width: 970px;
     }
 }
