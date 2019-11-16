@@ -156,7 +156,8 @@ footer {
     height: 32px;
     background: var(--bg-icon) no-repeat center/cover;
 }
-.about-service{
+
+.about-service {
     width: 270px;
 }
 
@@ -267,7 +268,7 @@ footer {
     display: block;
     width: 56px;
     height: 56px;
-    background: var(--bg-icon);
+    background: var(--bg-icon) no-repeat center/cover;
 }
 
 .social-list-item a:hover {
