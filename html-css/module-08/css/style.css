@@ -1,7 +1,3 @@
-* {
-    outline: 1px solid green;
-}
-
 img {
     display: block;
     max-width: 100%;
@@ -155,17 +151,6 @@ a {
     border-radius: 25px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 767px) {
     .navigation {
         justify-content: center;
@@ -238,6 +223,7 @@ a {
 
     .list-partners {
         justify-content: space-around;
+        margin-bottom: 10px;
     }
 
     .more-partners {
@@ -256,5 +242,9 @@ a {
 @media (min-width: 1440px) {
     .container {
         width: 970px;
+    }
+
+    .title-section {
+        padding: 70px 0 30px;
     }
 }
