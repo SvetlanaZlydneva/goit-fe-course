@@ -220,14 +220,17 @@ a {
     }
 
     .title-section {
-        padding: 70px 0 33px;
+        padding: 70px 0 30px;
     }
 
     .list-partners {
         justify-content: space-around;
     }
     .partner{
-        margin-bottom: 50px;
+        margin-bottom: 57px;
+    }
+    .partner:nth-last-child(-n+2){
+        margin-bottom: 25px;
     }
     .order-1 {
         order: 1;
