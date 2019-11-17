@@ -180,7 +180,7 @@ a {
     }
 
     .partner {
-        margin-bottom: 25px;
+        margin-bottom: 26px;
     }
 
     .list-partners {
@@ -244,6 +244,10 @@ a {
         justify-content: space-around;
     }
 
+    .partner {
+        margin-bottom: 57px;
+    }
+
     .more-partners {
         width: 190px;
         margin: 0 auto;
@@ -254,10 +258,6 @@ a {
 @media (min-width: 768px) and (max-width: 1439px) {
     .partners.container {
         width: 550px;
-    }
-
-    .partner {
-        margin-bottom: 57px;
     }
 
     .partner:nth-last-child(-n+2) {
@@ -271,6 +271,10 @@ a {
     }
 
     .title-section {
-        padding: 70px 0 30px;
+        padding: 68px 0 30px;
+    }
+
+    .list-partners {
+        justify-content: space-between;
     }
 }
