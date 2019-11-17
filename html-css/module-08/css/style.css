@@ -244,14 +244,6 @@ a {
         justify-content: space-around;
     }
 
-    .partner {
-        margin-bottom: 57px;
-    }
-
-    .partner:nth-last-child(-n+2) {
-        margin-bottom: 35px;
-    }
-
     .more-partners {
         width: 190px;
         margin: 0 auto;
@@ -262,6 +254,14 @@ a {
 @media (min-width: 768px) and (max-width: 1439px) {
     .partners.container {
         width: 550px;
+    }
+
+    .partner {
+        margin-bottom: 57px;
+    }
+
+    .partner:nth-last-child(-n+2) {
+        margin-bottom: 35px;
     }
 }
 
