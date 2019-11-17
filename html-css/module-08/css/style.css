@@ -139,7 +139,6 @@ a {
 }
 
 .about-partner {
-    margin-bottom: 25px;
     font: 300 14px/17px 'Roboto', sans-serif;
     color: #666;
 }
@@ -178,6 +177,9 @@ a {
 
     .title-section {
         padding: 66px 10px 15px;
+    }
+    .partner{
+        margin-bottom: 25px;
     }
 
     .list-partners {
@@ -223,9 +225,10 @@ a {
 
     .list-partners {
         justify-content: space-around;
-        margin-bottom: 10px;
     }
-
+    .partner{
+        margin-bottom: 50px;
+    }
     .order-1 {
         order: 1;
     }
@@ -251,7 +254,7 @@ a {
 
 @media (min-width: 768px) and (max-width: 1439px) {
     .partners.container {
-        width: 500px;
+        width: 550px;
     }
 }
 
