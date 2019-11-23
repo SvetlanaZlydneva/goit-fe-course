@@ -57,7 +57,7 @@ a{
 
 @media (max-width: 767px) {
     .navigation-ptb {
-        padding: 20px 0 110px;
+        padding-top: 20px 0 135px;
     }
     .content-header-box {
         padding-bottom: 136px;
@@ -76,7 +76,7 @@ a{
 }
 @media (min-width: 768px) {
     .navigation-lg-ptb {
-        padding: 38px 0 136px;
+        padding: 38px 0 135px;
     }
     .content-header-box {
         padding-bottom: 234px;
