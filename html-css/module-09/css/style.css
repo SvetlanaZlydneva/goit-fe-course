@@ -57,7 +57,7 @@ a{
 
 @media (max-width: 767px) {
     .navigation-ptb {
-        padding-top: 20px 0 135px;
+        padding: 20px 0 135px;
     }
     .content-header-box {
         padding-bottom: 136px;
