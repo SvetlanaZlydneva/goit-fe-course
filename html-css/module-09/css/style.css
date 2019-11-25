@@ -163,7 +163,7 @@ a {
         padding: 66px 0 15px;
     }
 
-    .mb-partner {
+    .mb-partner [class*="col-"] {
         margin-bottom: 26px;
     }
 }
@@ -204,17 +204,17 @@ a {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .mb-partner-md {
+    .mb-partner-md [class*="col-"] {
         margin-bottom: 57px;
     }
 
-    .mb-partner-md:nth-last-child(-n+2) {
+    .mb-partner-md [class*="col-"]:nth-last-child(-n+2) {
         margin-bottom: 35px;
     }
 }
 
 @media (min-width: 992px) {
-    .mb-partner-lg {
+    .mb-partner-lg [class*="col-"] {
         margin-bottom: 35px;
     }
 }
