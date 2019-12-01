@@ -1,3 +1,5 @@
+/* prefixed by https://autoprefixer.github.io (PostCSS: v7.0.23, autoprefixer: v9.7.3) */
+
 img {
     display: block;
     max-width: 100%;
@@ -28,6 +30,8 @@ ul {
 .socials,
 .footer,
 .form {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -36,6 +40,8 @@ ul {
 .services__item,
 .team__list,
 .footer {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
     justify-content: space-between;
 }
 
@@ -61,15 +67,21 @@ ul {
 }
 
 .header__box {
+    -webkit-box-align: end;
+    -ms-flex-align: end;
     align-items: flex-end;
 }
 
 .header {
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, .9)), to(rgba(243, 129, 129, .9))), url(../img/bg@1x-min.jpg) no-repeat center/cover;
+    background: -o-linear-gradient(bottom, rgba(252, 227, 138, .9), rgba(243, 129, 129, .9)), url(../img/bg@1x-min.jpg) no-repeat center/cover;
     background: linear-gradient(to top, rgba(252, 227, 138, .9), rgba(243, 129, 129, .9)), url(../img/bg@1x-min.jpg) no-repeat center/cover;
 }
 
 .header__box .link {
     border-bottom: 3px solid transparent;
+    -webkit-transition: border-bottom 0.2s linear;
+    -o-transition: border-bottom 0.2s linear;
     transition: border-bottom 0.2s linear;
 }
 
@@ -84,6 +96,8 @@ ul {
 
 .navigation__link--icon {
     fill: #fff;
+    -webkit-transition: fill 0.2s linear;
+    -o-transition: fill 0.2s linear;
     transition: fill 0.2s linear;
 }
 
@@ -115,14 +129,14 @@ ul {
 }
 
 .about-us__title--title {
-    padding: 30px 0 135px;
-    font: 700 150px/180px 'Montserrat', sans-serif;
+    padding: 32px 0 108px;
+    font: 700 150px/141px 'Montserrat', sans-serif;
 }
 
 .about-us__link {
-    width: 160px;
+    width: 154px;
     margin: 0 auto;
-    font: 700 14px/40px 'Montserrat', sans-serif;
+    font: 700 14px/35px 'Montserrat', sans-serif;
     border: 3px solid #fff;
 }
 
@@ -139,7 +153,7 @@ ul {
 }
 
 .services .section__title {
-    padding: 115px 0 66px;
+    padding: 46px 0 64px;
 }
 
 .section__title--description {
@@ -161,7 +175,9 @@ ul {
 }
 
 .sevices__list {
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -ms-flex-pack: distribute;
     justify-content: space-around;
 }
 
@@ -170,16 +186,21 @@ ul {
     margin-bottom: 95px;
 }
 
+.services__item:nth-last-child(-n+3) {
+    margin-bottom: 87px;
+}
+
 .services__icon {
     fill: #95e1d3;
 }
 
 .services__about {
-    width: 270px;
+    width: 280px;
 }
 
 .services__about--title {
     font: 400 14px/17px 'Montserrat', sans-serif;
+    padding-bottom: 10px;
 }
 
 .services__about--description,
@@ -214,20 +235,32 @@ ul {
 }
 
 .socials {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
     justify-content: center;
     position: absolute;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
+    background: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, .9)), to(rgba(243, 129, 129, .9)));
+    background: -o-linear-gradient(bottom, rgba(252, 227, 138, .9), rgba(243, 129, 129, .9));
     background: linear-gradient(to top, rgba(252, 227, 138, .9), rgba(243, 129, 129, .9));
     opacity: 0;
+    -webkit-transition: opacity 0.2s linear, -webkit-transform 0.2s linear;
+    transition: opacity 0.2s linear, -webkit-transform 0.2s linear;
+    -o-transition: opacity 0.2s linear, transform 0.2s linear;
     transition: opacity 0.2s linear, transform 0.2s linear;
+    transition: opacity 0.2s linear, transform 0.2s linear, -webkit-transform 0.2s linear;
 }
 
 .socials__link {
     background-color: #fce38a;
+    -webkit-transition: background-color 0.2s linear;
+    -o-transition: background-color 0.2s linear;
     transition: background-color 0.2s linear;
 }
 
@@ -242,6 +275,8 @@ ul {
 .socials__link--icon {
     padding: 15px;
     fill: #f38181;
+    -webkit-transition: fill 0.2s linear;
+    -o-transition: fill 0.2s linear;
     transition: fill 0.2s linear;
 }
 
@@ -254,11 +289,17 @@ ul {
 }
 
 .team-member__img-box--img {
+    -webkit-transition: -webkit-transform 0.2s linear;
+    transition: -webkit-transform 0.2s linear;
+    -o-transition: transform 0.2s linear;
     transition: transform 0.2s linear;
+    transition: transform 0.2s linear, -webkit-transform 0.2s linear;
 }
 
 .team__item:hover .team-member__img-box--img,
 .team__item:hover .socials {
+    -webkit-transform: translate(-10px, -10px);
+    -ms-transform: translate(-10px, -10px);
     transform: translate(-10px, -10px);
 }
 
@@ -272,6 +313,8 @@ ul {
 }
 
 .footer {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     border-top: 1px solid #e5e5e5;
 }
@@ -300,13 +343,33 @@ ul {
     padding-left: 13px;
 }
 
+.form__email::-webkit-input-placeholder {
+    color: #ccc;
+}
+
+.form__email::-moz-placeholder {
+    color: #ccc;
+}
+
+.form__email:-ms-input-placeholder {
+    color: #ccc;
+}
+
+.form__email::-ms-input-placeholder {
+    color: #ccc;
+}
+
 .form__email::placeholder {
     color: #ccc;
 }
 
-@media(min-resolution:192dpi),
+@media(-webkit-min-device-pixel-ratio:2),
+(-o-min-device-pixel-ratio:2/1),
+(min-resolution:192dpi),
 (min-resolution:2dppx) {
     .header {
+        background: -webkit-gradient(linear, left bottom, left top, from(rgba(252, 227, 138, .9)), to(rgba(243, 129, 129, .9))), url(../img/bg@2x-min.jpg) no-repeat center/cover;
+        background: -o-linear-gradient(bottom, rgba(252, 227, 138, .9), rgba(243, 129, 129, .9)), url(../img/bg@2x-min.jpg) no-repeat center/cover;
         background: linear-gradient(to top, rgba(252, 227, 138, .9), rgba(243, 129, 129, .9)), url(../img/bg@2x-min.jpg) no-repeat center/cover;
     }
 }
