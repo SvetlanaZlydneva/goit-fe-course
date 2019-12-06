@@ -1,0 +1,20 @@
+%block {
+  display: block;
+}
+
+%link {
+  @extend %block;
+  text-decoration: none;
+}
+
+%flex {
+  display: flex;
+}
+
+%flex-justify-between {
+  justify-content: space-between;
+}
+
+%text-uppercase {
+  text-transform: uppercase;
+}

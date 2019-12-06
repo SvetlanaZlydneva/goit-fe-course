@@ -1,0 +1,10 @@
+@mixin font($weight: 400, $style:normal, $size:14, $line-height:24, $name:map-get($fonts, mont)) {
+  @if($style==normal) {
+    font: $weight $size+px/$line-height+px $name, map-get($fonts, sans);
+  }
+
+  @else {
+    font: $weight $style $size+px/$line-height+px $name, map-get($fonts, sans);
+  }
+
+}
