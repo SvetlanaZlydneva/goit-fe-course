@@ -1,0 +1,54 @@
+.header {
+  min-height: 63px;
+  @extend %flex;
+  @extend %flex-justify-between;
+  align-items: flex-end;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo__link {
+  @extend %link;
+  color: map-get($colors, white);
+  border-bottom: 3px solid transparent;
+  @include font($weight:700, $size:30, $line-height:36);
+}
+
+.navigation {
+  min-width: 625px;
+  @include font($line-height:36);
+}
+
+.navigation__list {
+  @extend %flex;
+  @extend %flex-justify-between;
+}
+
+.navigation__item {
+
+  &:hover .navigation__link,
+  &:focus .navigation__link {
+    color: map-get($colors, light-yellow);
+    border-bottom: 3px solid map-get($colors, light-yellow);
+  }
+
+  &:hover .navigation__link--icon,
+  &:focus .navigation__link--icon {
+    fill: map-get($colors, light-yellow);
+  }
+}
+
+.navigation__link {
+  @extend %link;
+  @extend %text-uppercase;
+  color: map-get($colors, white);
+  border-bottom: 3px solid transparent;
+  transition: border-bottom 0.2s linear, color 0.2s linear;
+}
+
+.navigation__link--icon {
+  fill: map-get($colors, white);
+  transition: fill 0.2s linear;
+}

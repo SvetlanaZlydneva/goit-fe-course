@@ -1,0 +1,46 @@
+.footer {
+  min-height: 63px;
+  @extend %flex;
+  @extend %flex-justify-between;
+  align-items: center;
+  border-top: 1px solid map-get($colors, gray90);
+}
+
+.form {
+  @extend %flex;
+}
+
+.copyright {
+  @include font($line-height:17);
+}
+
+.copyright__link {
+  text-decoration: none;
+  color: map-get($colors, light-coral);
+}
+
+.copyright__text {
+  color: map-get($colors, grey20);
+}
+
+.form__submit {
+  min-width: 150px;
+  color: map-get($colors, white);
+  @extend %text-uppercase;
+  @include font($weight:700, $line-height:40);
+  background-color: map-get($colors, riptide);
+  border: none;
+  cursor: pointer;
+}
+
+.form__email {
+  min-width: 217px;
+  @include font(300, italic, 15, 38, map-get($fonts, roboto));
+  font: 300 italic 15px/38px 'Roboto', sans-serif;
+  border: 1px solid map-get($colors, whisper);
+  padding-left: 13px;
+
+  &::placeholder {
+    color: map-get($colors, gray80);
+  }
+}

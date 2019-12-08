@@ -1,0 +1,100 @@
+.team {
+  text-align: center;
+}
+
+.team .section__title {
+  padding-bottom: 41px;
+}
+
+.team__description {
+  width: 950px;
+  margin: 0 auto 90px;
+  color: map-get($colors, gray);
+  @include font($size:15, $name:map-get($fonts, roboto));
+}
+
+.team__list {
+  @extend %flex;
+  @extend %flex-justify-between;
+}
+
+.team__item {
+  width: 381px;
+  margin-bottom: 78px;
+
+  &:hover .socials {
+    opacity: 1;
+  }
+
+  &:hover .team-member__img-box--img,
+  &:hover .socials {
+    transform: translate(-10px, -10px);
+  }
+}
+
+.team-member__img-box {
+  position: relative;
+  background-color: map-get($colors, riptide);
+}
+
+.team-member__img-box--img {
+  transition: transform 0.2s linear;
+}
+
+.team-member__name {
+  @extend %text-uppercase;
+  color: map-get($colors, gray20);
+  @include font($line-height:17);
+  padding: 27px 0 5px;
+}
+
+.team-member__position {
+  color: map-get($colors, gray);
+  @include font($weight:300, $style:italic, $size:15, $name:map-get($fonts, roboto));
+}
+
+.socials {
+  @extend %flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(to top,
+      rgba(map-get($colors, light-yellow), .9),
+      rgba(map-get($colors, light-coral), .9));
+  opacity: 0;
+  transition: opacity 0.2s linear, transform 0.2s linear;
+}
+
+.socials__list {
+  @extend %flex;
+}
+
+.socials__item {
+  &:not(:last-child) {
+    border-right: 1px solid map-get($colors, light-coral);
+  }
+}
+
+.socials__link {
+  @extend %link;
+  background-color: map-get($colors, light-yellow);
+  transition: background-color 0.2s linear;
+
+  &:hover {
+    background-color: map-get($colors, light-coral);
+  }
+}
+
+.socials__link--icon {
+  padding: 15px;
+  fill: map-get($colors, light-coral);
+  transition: fill 0.2s linear;
+
+  &:hover {
+    fill: map-get($colors, white);
+  }
+}

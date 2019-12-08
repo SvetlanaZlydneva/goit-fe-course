@@ -1,0 +1,13 @@
+/*
+ * Все паршалы импортировать в этот файл
+ */
+@import "helpers/variables.scss";
+@import "helpers/mixins.scss";
+@import "helpers/placeholders.scss";
+@import 'normalize.scss';
+@import 'base.scss';
+@import 'header.scss';
+@import 'about.scss';
+@import 'services.scss';
+@import 'team.scss';
+@import 'footer.scss';
