@@ -338,4 +338,9 @@ module-07
 module-08
 module-09
 module-10
+.babelrc
+.browserslistrc
+.editorconfig
+.prettierrc
+.stylelintrc
 
