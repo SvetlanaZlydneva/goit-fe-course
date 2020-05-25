@@ -1,0 +1,38 @@
+.container {
+  width: 500px;
+  margin: 100px auto 0;
+}
+img {
+  width: 100%;
+  height: auto;
+}
+h1 {
+  text-align: center;
+  font-size: 36px;
+}
+#name_of_the_country {
+  width: 60%;
+  display: block;
+  margin: 0 auto;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 25px;
+  border-radius: 25px 0;
+  outline: none;
+}
+#name_of_the_country::placeholder {
+  color: #d3d3d3;
+}
+#list {
+  font-size: 24px;
+}
+.country {
+  display: flex;
+  font-size: 18px;
+  align-items: center;
+}
+
+.info,
+.image {
+  width: 50%;
+}
