@@ -1,14 +1,4 @@
-[Module-1](https://svetlanazlydneva.github.io/goit-fe-course/html-css/module-01/)
-[Module-2](https://svetlanazlydneva.github.io/goit-fe-course/html-css/module-02/)
-[Module-3](https://svetlanazlydneva.github.io/goit-fe-course/html-css/module-03/)
-[Module-4](https://svetlanazlydneva.github.io/goit-fe-course/html-css/module-04/)
-[Module-5](https://svetlanazlydneva.github.io/goit-fe-course/html-css/module-05/)
-[Module-6](https://svetlanazlydneva.github.io/goit-fe-course/html-css/module-06/)
-[Module-7](https://svetlanazlydneva.github.io/goit-fe-course/html-css/module-07/)
-[Module-8](https://svetlanazlydneva.github.io/goit-fe-course/html-css/module-08/)
-[Module-9](https://svetlanazlydneva.github.io/goit-fe-course/html-css/module-09/)
-[Module-10](https://svetlanazlydneva.github.io/goit-fe-course/html-css/module-10/)
-[Module-11](https://svetlanazlydneva.github.io/goit-fe-course/html-css/module-11/build/)
+##[Module-1/2](https://svetlanazlydneva.github.io/goit-fe-course/html-css/module-01-02/)## ##[Module-3](https://svetlanazlydneva.github.io/goit-fe-course/html-css/module-03/)## ##[Module-4](https://svetlanazlydneva.github.io/goit-fe-course/html-css/module-04/)## ##[Module-5](https://svetlanazlydneva.github.io/goit-fe-course/html-css/module-05/)## ##[Module-6](https://svetlanazlydneva.github.io/goit-fe-course/html-css/module-06/)## ##[Module-7](https://svetlanazlydneva.github.io/goit-fe-course/html-css/module-07/)## ##[Module-8](https://svetlanazlydneva.github.io/goit-fe-course/html-css/module-08/)## ##[Module-9](https://svetlanazlydneva.github.io/goit-fe-course/html-css/module-09/)## ##[Module-10](https://svetlanazlydneva.github.io/goit-fe-course/html-css/module-10/)## ##[Module-11](https://svetlanazlydneva.github.io/goit-fe-course/html-css/module-11/build/)##
 
 `Модуль 2 - Домашнее задание`
 Создать аккаунт на GitHub
